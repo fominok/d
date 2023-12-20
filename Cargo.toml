@@ -1,0 +1,15 @@
+[package]
+name = "saygex"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "saygex"
+path = "src/bin/saygex.rs"
+
+[[bin]]
+name = "saygexd"
+path = "src/bin/saygexd.rs"
+
+[dependencies]
+clap = { version = "4.4.11", features = ["derive"] }
